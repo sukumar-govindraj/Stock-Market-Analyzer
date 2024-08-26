@@ -23,6 +23,17 @@ The dataset consists of daily news headlines from various sources, with labels i
 3. **XGBoost**: A gradient boosting model optimized for speed and performance.
 4. **ROC and AUC**: ROC curves and AUC scores are used to evaluate the classification performance.
 
+## Visulaization
+![image](https://github.com/user-attachments/assets/422f1bc9-f01a-4b2e-8226-92465b276e41)
+![image](https://github.com/user-attachments/assets/0c09726c-5850-4434-944c-0299cc486235)
+![image](https://github.com/user-attachments/assets/b32a1cd6-b05f-4216-b5b7-94e052dfd984)
+
+
+## Results
+- **Model Performance**: Both Random Forest and XGBoost models are evaluated using accuracy, precision, recall, F1-score, and AUC. ROC curves are plotted to visualize the model's performance.
+![image](https://github.com/user-attachments/assets/b3b19039-6ba4-4dc2-8c23-479e020324f0)
+![image](https://github.com/user-attachments/assets/874674cf-181f-4628-8087-b27bae2cdcca)
+
 ## Instructions to Run
 1. Clone the repository:
    ```
@@ -36,9 +47,5 @@ The dataset consists of daily news headlines from various sources, with labels i
    ```
    jupyter notebook Stock_Sentimental_Analysis.ipynb
    ```
-
-## Results
-- **Model Performance**: Both Random Forest and XGBoost models are evaluated using accuracy, precision, recall, F1-score, and AUC. ROC curves are plotted to visualize the model's performance.
-
 ## Conclusion
 The project demonstrates how sentiment analysis combined with machine learning models can be used to predict stock market movements. The results indicate the effectiveness of using these techniques to make informed predictions.
